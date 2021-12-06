@@ -1,4 +1,4 @@
-/* Copyright (C) 2021 afnanplk
+/* Copyright (C) 2021 iamcyberporali
 */
 
 const Asena = require('../events');
