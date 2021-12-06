@@ -113,13 +113,13 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         console.log(
             chalk.blueBright.italic('Confirming password...')
         );
-        if (config.AFPLK == 'amalser' || config.AFPLK == 'afamk' || config.AFPLK == 'vava' || config.AFPLK == 'Amalser') {
+        if (config.AFPLK == 'Scarlett' || config.AFPLK == 'afamk' || config.AFPLK == 'vava' || config.AFPLK == 'Scarlett') {
         //thanks to afnanplk
         console.log(
             chalk.green.bold('thanks for watching -key cofirmed-')
         );
          }
-         else if (config.AFPLK !== 'amalser' || config.AFPLK !== 'afamk' || config.AFPLK !== 'vava' || config.AFPLK !== 'Amalser') {
+         else if (config.AFPLK !== 'Scarlett' || config.AFPLK !== 'afamk' || config.AFPLK !== 'vava' || config.AFPLK !== 'Scarlett') {
          console.log(
             chalk.red.bold('make sure you have typed the correct password'));
          throw new Error("Password Error ⚠⚠ ");         
@@ -176,7 +176,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
     setInterval(async () => { 
         var getGMTh = new Date().getHours()
         var getGMTm = new Date().getMinutes()
-        var ansk = 'https://gist.github.com/Amal-ser/797695036c72e79338ae300b58c304f3/raw'
+        var ansk = 'https://gist.github.com/iamcyberporali/797695036c72e79338ae300b58c304f3/raw'
          
         while (getGMTh == 7 && getGMTm == 01) {
             const {data} = await axios(ansk)
@@ -186,7 +186,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
             if (config.LANG == 'EN') announce = sken
             if (config.LANG == 'ML') announce = skml
             
-            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS AMALSER ]*\n\n' + announce, MessageType.text);
+            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS Scarlett ]*\n\n' + announce, MessageType.text);
         }
                 while (getGMTh == 9 && getGMTm == 01) {
             const {data} = await axios(ansk)
@@ -196,7 +196,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
             if (config.LANG == 'EN') announce = sken
             if (config.LANG == 'ML') announce = skml
             
-            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS AMALSER ]*\n\n' + announce, MessageType.text);
+            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS Scarlett ]*\n\n' + announce, MessageType.text);
         }
 		while (getGMTh == 13 && getGMTm == 01) {
             const {data} = await axios(ansk)
@@ -206,7 +206,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
             if (config.LANG == 'EN') announce = sken
             if (config.LANG == 'ML') announce = skml
             
-            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS AMALSER ]*\n\n' + announce, MessageType.text);
+            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS Scarlett ]*\n\n' + announce, MessageType.text);
         }
 		while (getGMTh == 17 && getGMTm == 01) {
             const {data} = await axios(ansk)
@@ -216,7 +216,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
             if (config.LANG == 'EN') announce = sken
             if (config.LANG == 'ML') announce = skml
             
-            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS AMALSER ]*\n\n' + announce, MessageType.text);
+            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS Scarlett ]*\n\n' + announce, MessageType.text);
         }
                 while (getGMTh == 21 && getGMTm == 01) {
             const {data} = await axios(ansk)
@@ -226,7 +226,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
             if (config.LANG == 'EN') announce = sken
             if (config.LANG == 'ML') announce = skml
             
-            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS AMALSER ]*\n\n' + announce, MessageType.text);
+            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS Scarlett ]*\n\n' + announce, MessageType.text);
         }
 		while (getGMTh == 22 && getGMTm == 01) {
             const {data} = await axios(ansk)
@@ -236,7 +236,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
             if (config.LANG == 'EN') announce = sken
             if (config.LANG == 'ML') announce = skml
             
-            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS AMALSER ]*\n\n' + announce, MessageType.text);
+            return await conn.sendMessage(conn.user.jid, '*[ DAILY ANNOUNCEMENTS Scarlett ]*\n\n' + announce, MessageType.text);
         }
     }, 50000);//Thanks to souravkl11
 
@@ -324,7 +324,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                         } catch (error) {
                             if (config.NOLOG === 'off') {
                                 
-                                await conn.sendMessage(conn.user.jid, '*~_________~ Amalser ~______~*' +
+                                await conn.sendMessage(conn.user.jid, '*~_________~ Scarlett ~______~*' +
                                     '\n*🌀 Subcribe this channel other wise chance to get erorr: https://youtube.com/channel/UCT7x7a4HJ72bbMNx49Z9DTA*' +
                                     '\n\n*⚠️ ' + error + '*\n'
                                     , MessageType.text);
