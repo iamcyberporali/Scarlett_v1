@@ -1,8 +1,8 @@
-/* Amalser Bot
-Re-edit Amalser
+/* Scarlett Bot
+Re-edit Akhil
 */
 
-const Amalser = require('../events');
+const Scarlett = require('../events');
 const {MessageType, GroupSettingChange, Mimetype, MessageOptions} = require('@adiwajshing/baileys');
 const fs = require('fs');
 const Config = require('../config')
@@ -17,16 +17,16 @@ var ddd = ggg.toString('utf-8')
 
 let whb = Config.WORKTYPE == 'public' ? false : true
 
-Amalser.addCommand({pattern: 'alive', fromMe: whb, dontAddCommandList: true}, (async (message, match) => {
+Scarlett.addCommand({pattern: 'alive', fromMe: whb, dontAddCommandList: true}, (async (message, match) => {
 // send a buttons message!credit Amal
     const buttons = [
-        {buttonId: 'id1', buttonText: {displayText: Config.AMAL_SER }, type: 1},
-        {buttonId: 'id2', buttonText: {displayText: Config.AMAL_S }, type: 1}
+        {buttonId: 'id1', buttonText: {displayText: Config.SCARLETT 1 }, type: 1},
+        {buttonId: 'id2', buttonText: {displayText: Config.SCARLETT2}, type: 1}
       ]
       
       const buttonMessage = {
           contentText: '```'+Config.BOT+'\n\n```'+Config.ALIVEMSG+'\n',
-          footerText: 'Amalser ©',
+          footerText: 'Scarlett ©',
           buttons: buttons,
           headerType: 1
       }
